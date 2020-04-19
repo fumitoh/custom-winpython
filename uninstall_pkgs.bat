@@ -1,0 +1,9 @@
+pip uninstall GDAL
+pip uninstall imageio-ffmpeg
+pip uninstall imageio
+pip uninstall pyproj
+pip uninstall astropy
+pip uninstall astroML
+pip uninstall pygame
+pip uninstall torch
+pip uninstall torchvision
