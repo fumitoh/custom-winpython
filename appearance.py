@@ -34,7 +34,7 @@ APPEARANCE = {
               'solarized/dark', 'inkpot', 'minimal', 'nightlion',
               'notepad++', 'oblivion', 'obsidian', 'pastel', 'retta',
               'roboticket', 'sublime-monokai/extended', 'vibrant-ink'],
-    'selected': 'spyder/dark',
+    'selected': 'spyder',
     # ---- Emacs ----
     'emacs/name':        "Emacs",
     #      Name            Color     Bold  Italic

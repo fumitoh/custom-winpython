@@ -118,7 +118,7 @@ DEFAULTS = [
               'custom': False,
               'umr/enabled': True,
               'umr/verbose': True,
-              'umr/namelist': [],
+              'umr/namelist': ['modelx'],
               'custom_interpreters_list': [],
               'custom_interpreter': '',
               }),
@@ -139,7 +139,7 @@ DEFAULTS = [
               'pylab/inline/width': 6,
               'pylab/inline/height': 4,
               'pylab/inline/bbox_inches': True,
-              'startup/run_lines': '',
+              'startup/run_lines': 'import modelx as mx',
               'startup/use_run_file': False,
               'startup/run_file': '',
               'greedy_completer': False,
@@ -525,9 +525,9 @@ DEFAULTS = [
               'enable': True,
               'call_to_action': True,
               # Enable the installation dialog
-              'show_installation_dialog': True,
-              'show_onboarding': True,
-              'show_installation_error_message': True,
+              'show_installation_dialog': False,
+              'show_onboarding': False,
+              'show_installation_error_message': False,
              }),
             ]
 
