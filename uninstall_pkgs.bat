@@ -7,3 +7,6 @@ pip uninstall astroML
 pip uninstall pygame
 pip uninstall torch
 pip uninstall torchvision
+pip uninstall pyarrow
+pip uninstall bokeh
+pip uninstall scikit-image
